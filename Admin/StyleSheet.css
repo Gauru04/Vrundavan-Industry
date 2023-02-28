@@ -1,0 +1,224 @@
+﻿body {
+}
+
+* {
+    padding:0;
+    margin-right: 0;
+    margin-top: 0px;
+}
+
+.menu{
+    height:50px;
+    background-color:#fe440f;
+}
+
+.menu ul{
+    list-style:none;
+    line-height:50px;
+    height: 52px;
+}
+
+.menu ul li {
+    float:left;
+    line-height:50px;
+    width:202px;
+    display:block;
+    text-align:center;
+    height: 52px;
+}
+
+.menu ul li a{
+    color:white;
+    font-family:Arial;
+
+    font-weight:bold;
+    font-size:larger;
+    text-decoration:none;
+    display:block;
+
+
+}
+
+.menu ul li a:hover{
+    background-color:#fe440f;
+    line-height:50px;
+    color:#0d0b3b;
+
+}
+
+.cont {
+    background-image: url(http://localhost:59072/Images/robin-sommer-wnOJ83k8r4w-unsplash.jpg);
+    height:1000px;
+    background-size:cover;
+    opacity:80%;
+    margin:0;
+    
+}
+
+.footer{
+    background-color:#0d0b3b;
+    color:white;
+    line-height:100px;
+}
+
+.Heading{
+    height:50px;
+   
+}
+
+.us {
+    background-color:#0d0b3b;
+    color:white;
+    height: 600px;
+    width: 30%;
+    margin-left: 5%;
+    position: absolute;
+    margin-top: 10%;
+    border-radius: 7px;
+   
+}
+
+.sup{
+  background-color:#0d0b3b;
+
+    color:white;
+    height: 600px;
+    width: 30%;
+    margin-left: 5%;
+    position: absolute;
+    margin-top: 10%;
+    border-radius: 7px;
+   
+
+}
+
+.u_tbl{
+     background-color:#0d0b3b;
+
+    color:white;
+    height: 400px;
+    width: 50%;
+    margin-left: 45%;
+    position: absolute;
+    margin-top: 10%;
+    border-radius: 7px;
+    }
+
+.pro{
+     background-color:#0d0b3b;
+
+    color:white;
+    height: 850px;
+    width: 35%;
+    margin-left: 5%;
+    position: absolute;
+    margin-top: 5%;
+    border-radius: 7px;
+   
+}
+
+.pur{
+     background-color:#0d0b3b;
+
+    color:white;
+    height: 600px;
+    width: 30%;
+    margin-left: 5%;
+    position: absolute;
+    margin-top: 10%;
+    border-radius: 7px;
+}
+
+.tbl{
+    background-color:#0d0b3b;
+
+    color:white;
+    height: 400px;
+    width: 50%;
+    margin-left: 45%;
+    position: absolute;
+    margin-top: 10%;
+    border-radius: 7px;
+}
+
+.p_tbl{
+     background-color:#0d0b3b;
+
+    color:white;
+    height: 400px;
+    width: 50%;
+    margin-left: 45%;
+    position: absolute;
+    margin-top: 10%;
+    border-radius: 7px;
+         }
+
+.s_tbl{
+     background-color:#0d0b3b;
+
+    color:white;
+    height: 400px;
+    width: 50%;
+    margin-left: 45%;
+    position: absolute;
+    margin-top: 10%;
+    border-radius: 7px;
+}
+
+.user{
+       height:200px;  
+      line-height:100px;
+     text-align:center;
+     background-color:#fe440f;
+    width: 350px;
+    opacity:90%;
+    color:white;
+}
+
+
+.product{
+       height:200px;  
+      line-height:100px;
+     text-align:center;
+     background-color:#fe440f;
+    width: 350px;
+    opacity:90%;
+    color:white;
+}
+
+.purchase {
+    height: 200px;
+    line-height: 100px;
+    text-align: center;
+    background-color: #fe440f;
+    width: 350px;
+    opacity:90%;
+    color:white;
+}
+
+.supplier{
+     height:200px;  
+      line-height:100px;
+     text-align:center;
+     background-color:#fe440f;
+    width: 350px;
+    opacity:90%;
+    color:white;
+}
+
+.trans1{
+    height:800px;
+
+}
+
+.trans2{
+    background-color:#0d0b3b;
+
+    color:white;
+    height: 600px;
+    width: 35%;
+    margin-left: 30%;
+    position: absolute;
+    margin-top: 8%;
+    border-radius: 7px;
+}

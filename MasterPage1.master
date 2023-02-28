@@ -1,0 +1,161 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage1.master.cs" Inherits="User_MasterPage1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server" style="background-color: #FFFFFF; font-family: 'times New Roman', Times, serif;">
+        <link href="StyleSheet.css" rel="stylesheet" />
+        <div class="head1" style="line-height: 30px; font-family: 'calibri Light'; font-size: 13px;">
+
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;Trusted service provider since 25 years. <asp:HyperLink ID="HyperLink1" runat="server" ForeColor="#FE340A" Font-Underline="False" NavigateUrl="~/User/Contact.aspx">Contact US</asp:HyperLink>
+        </div>
+        <div class="head2" style="font-family: 'Calibri Light'; font-size: 13px; text-align: left; line-height: 30px;">
+
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Image ID="Image2" runat="server" Height="15px" ImageAlign="AbsMiddle" ImageUrl="~/Images/14-144347_location-png-white-vector-free-library-location-icon.png" Width="14px" />
+&nbsp;PI.NO.34/568 E, Y.P.Powar Nagar,Kolhapur.&nbsp;</div>
+        <div class="head3">
+
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Image ID="Image3" runat="server" Height="20px" ImageAlign="Middle" ImageUrl="~/Images/logo-twitter-png-5860.png" Width="20px" />
+&nbsp;&nbsp;
+            <asp:Image ID="Image4" runat="server" Height="16px" ImageAlign="Middle" ImageUrl="~/Images/logo-facebookpng-32214.png" Width="14px" />
+&nbsp;&nbsp;&nbsp;
+            <asp:Image ID="Image5" runat="server" Height="17px" ImageAlign="Middle" ImageUrl="~/Images/logo-instagram-png-2431.png" Width="17px" />
+&nbsp;&nbsp;&nbsp;
+            <asp:Image ID="Image6" runat="server" Height="20px" ImageAlign="Middle" ImageUrl="~/Images/youtube-logo-png-2070.png" Width="20px" />
+
+        </div>
+
+        <div class="logo">
+
+        &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Image ID="Image1" runat="server" Height="44px" ImageUrl="~/Images/20220204_122143.png" Width="130px" ImageAlign="AbsBottom" />
+
+        </div>
+        <div class="logo1">
+
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Image ID="Image9" runat="server" Height="44px" ImageUrl="~/Images/tel.jpg" Width="179px" />
+
+        </div>
+        <div class="logo2">
+
+        &nbsp;&nbsp;
+            <asp:Image ID="Image10" runat="server" Height="46px" ImageUrl="~/Images/EMAIL.jpg" Width="289px" />
+
+        </div>
+        <div class="logo3">
+
+        </div>
+
+        <div class="menu1">
+
+        </div>
+        <div class="menu2">
+            <ul style="font-family: Arial;">
+                <li><a href="Home.aspx" style="font-size: 16px; font-family: Arial;">HOME</a></li>
+                <li><a href="Aboutus.aspx"style="font-family: Arial; font-size: 16px">ABOUT US</a></li>
+                <li><a href="Product.aspx" style="font-family: Arial; font-size: 16px">PRODUCTS</a></li>
+                <li><a href="login.aspx" style="font-family: Arial; font-size: 16px">SHOP</a></li>
+                <li><a href="Video.aspx" style="font-family: Arial; font-size: 16px">VIDEOS</a></li>
+                <li><a href="Gallery.aspx" style="font-family: Arial; font-size: 16px">GALLERY</a></li>
+                <li><a href="Contact.aspx" style="font-family: Arial; font-size: 16px">CONTACT US</a></li>
+               
+                 <li><a href="login.aspx" style="font-family: Arial; font-size: 16px">LOGIN</a></li>
+
+            </ul>
+
+
+        </div>
+        <div class="cont">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+        <div class="footer" style="font-family: 'Arial Black'">
+     
+            <div class="foot" style="font-family: Arial; font-size: small;">
+
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:Image ID="Image7" runat="server" Height="44px" ImageUrl="~/Images/20220308_114138.png" Width="155px" />
+                <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; We provide expert industrial solutions to businesses.
+                <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; With over 25 years of experience we’ll ensure that you’re
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; always getting the best results from an award-winning<br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; firm focused on quality.<br />
+                <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <br />
+                <br />
+
+            </div>
+            <div class="navigation" style="font-family: 'Arial Black'; font-size: medium; color: #FFFFFF;">
+
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:Label ID="Label1" runat="server" Font-Names="Arial Black" Font-Size="15pt" Text="NAVIGATION"></asp:Label>
+                <br />
+                <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:HyperLink ID="HyperLink2" runat="server" Font-Names="Arial" Font-Underline="False" ForeColor="White" NavigateUrl="~/User/Home.aspx">HOME</asp:HyperLink>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:HyperLink ID="HyperLink3" runat="server" Font-Names="Arial" Font-Underline="False" ForeColor="White" NavigateUrl="~/User/Gallery.aspx">GALLERY</asp:HyperLink>
+                <br />
+                <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:HyperLink ID="HyperLink4" runat="server" Font-Names="Arial" Font-Underline="False" ForeColor="White" NavigateUrl="~/User/Aboutus.aspx">ABOUT US</asp:HyperLink>
+&nbsp;&nbsp;
+                <asp:HyperLink ID="HyperLink5" runat="server" Font-Names="Arial" Font-Underline="False" ForeColor="White" NavigateUrl="~/User/Contact.aspx">CONTACT US</asp:HyperLink>
+                <br />
+&nbsp;
+                <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:HyperLink ID="HyperLink6" runat="server" Font-Names="Arial" Font-Underline="False" ForeColor="White" NavigateUrl="~/User/Product.aspx">PRODUCT</asp:HyperLink>
+                <br />
+&nbsp;
+                <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:HyperLink ID="HyperLink7" runat="server" Font-Names="Arial" Font-Underline="False" ForeColor="White" NavigateUrl="~/User/Video.aspx">VIDEOS</asp:HyperLink>
+                <br />
+&nbsp; &nbsp;&nbsp;</div>
+            <div class="working" style="font-family: Arial; font-size: small">
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:Label ID="Label2" runat="server" Font-Names="Arial Black" Font-Size="15pt" Text="WORKING"></asp:Label>
+                <br />
+                <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Visit us at our HQ for a mean&nbsp;&nbsp;&nbsp;
+                <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; cup of coffe and a fantastic
+                <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; consulting team.<br />
+            </div>
+            <div class="contact" style="font-family: 'Arial Black'; font-size: 20px">
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                <asp:Label ID="Label3" runat="server" Font-Names="Arial Black" Font-Size="15pt" Text="CONTACT  US"></asp:Label>
+                &nbsp;
+                <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:Image ID="Image8" runat="server" Height="329px" ImageUrl="~/Images/ADD.png" Width="201px" />
+                <br />
+&nbsp;&nbsp;
+                </div>
+        </div>
+    </form>
+    </body>
+</html>

@@ -1,0 +1,753 @@
+﻿.body {
+}
+
+* {
+    padding:0;
+    margin:0;
+}
+.head1{
+    float:left;
+    height:30px;
+    background-color:#030321;
+    width:40%; 
+    color:white;
+}
+
+.head2 {
+    float:left;
+    height:30px;
+    background-color:#030321;
+    width:40%;
+    color:white;
+}
+
+.head3 {
+    float:left;
+    height:30px;
+    background-color:#030321;
+    width:20%;
+}
+
+.logo{
+    float:left;
+    height:50px;
+    background-color:white;
+    width:40%; 
+}
+
+.logo1 {
+    float: left;
+    height: 50px;
+    background-color: white;
+    width:20%;
+}
+
+.logo2 {
+    float: left;
+    height: 50px;
+    background-color: white;
+    width:20%;
+}
+
+.logo3 {
+    float: left;
+    height: 50px;
+    background-color: white;
+    width: 20%;
+}
+
+.reg{
+    height:900px;
+    background-image:url(http://localhost:59072/Images/regi.jpg);
+   
+}
+
+
+.reg1{
+    background-image:url(http://localhost:59072/Images/darkpurple.png);
+    background-color:white;
+    color:white;
+    height: 640px;
+    width: 35%;
+    margin-left: 10%;
+    position:absolute;
+margin-top:12%;
+    border-radius: 7px;
+}
+
+
+.menu1{
+    float: left;
+    height: 40px;
+    background-color:#fe340a;
+    width:36%;
+}
+
+.menu2{
+    float: left;
+    height: 40px;
+    background-color:#fe340a;
+    width:64%;
+    color:white;
+    text-align:left;
+   
+  
+}
+
+
+
+.menu2 ul{
+    list-style:none;
+    line-height:50px;
+    height: 52px;
+}
+
+.menu2 ul li {
+    float:left;
+    line-height:40px;
+    width:120px;
+    display:block;
+    text-align:center;
+    height: 52px;
+}
+
+.menu2 ul li a{
+    color:white;
+    font-family:Arial;
+    font-size:larger;
+    font-weight:bold;
+    font-size:larger;
+    text-decoration:none;
+    display:block;
+
+
+}
+
+.menu2 ul li a:hover{
+    background-color:#fe340a;
+    line-height:40px;
+    color:#0d0b3b;
+
+}
+.cont{
+     
+
+}
+
+.footer{
+    background-image:url(http://localhost:59072/Images/wallpaperflare.com_wallpaper.jpg);
+    height:350px;
+    opacity:90%;
+    margin:0;
+    color:white;
+}
+.foot{
+    
+     height:300px;
+     float:left;
+     width:30%;
+}
+.navigation{
+ 
+        height:350px;
+    
+     float:left;
+     width:26%;
+    
+     
+}
+
+.working{
+
+    height:350px;
+   
+    float:left;
+     width:20%;
+     
+}
+.contact {
+    height: 350px;
+    float: left;
+    width: 20%;
+}
+.sl {
+  background-image:url(http://localhost:59072/Images/vk.jpg);
+  height:700px;
+  
+}
+.ocv{
+    background-image:url(http://localhost:59072/Images/orange.jpg);
+    height:600px;
+}
+
+.ocv2{
+    background-image:url(http://localhost:59072/Images/orange.jpg);
+    height:300px;
+}
+
+.abt{
+    height:800px;
+    text-align:justify;
+
+}
+
+.abt1{
+    height:440px;
+    background-color:#0d0b3b;
+
+}
+
+.abt2{
+    height:340px;
+   background-image:url(http://localhost:59072/Images/orange.jpg);
+  
+}
+
+
+
+
+
+
+
+
+.flip-card {
+    float:left;
+  background-color: transparent;
+  width: 250px;
+  height: 250px;
+  perspective: 1000px;
+  margin-left:10%;
+ margin-top:7%;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color:#030321;
+  color: white;
+  transform: rotateY(180deg);
+
+}
+
+
+
+
+
+
+
+
+.flip-card1 {
+    float:left;
+  background-color: transparent;
+  width: 250px;
+  height: 250px;
+  perspective: 1000px;
+ margin-left:5%;
+ margin-top:7%;
+
+}
+.flip-card-inner1 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card1:hover .flip-card-inner1 {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front1, .flip-card-back1 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front1 {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back1 {
+  background-color:#030321;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+
+
+
+
+.flip-card2 {
+    float:left;
+  background-color: transparent;
+  width: 250px;
+  height: 250px;
+  perspective: 1000px;
+ margin-left:5%;
+ margin-top:7%;
+
+}
+.flip-card-inner2 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card2:hover .flip-card-inner2 {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front2, .flip-card-back2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front2 {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back2 {
+ background-color:#030321;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+
+
+
+
+.flip-card3 {
+    float:left;
+  background-color: transparent;
+  width: 250px;
+  height: 250px;
+  perspective: 1000px;
+ margin-left:5%;
+ margin-top:7%;
+
+}
+.flip-card-inner3 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card3:hover .flip-card-inner3 {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front3, .flip-card-back3 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front3 {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back3 {
+ background-color:#030321;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+
+.prod1{
+background-color:white;
+    height:500px;
+    
+    
+}
+
+.contact1{
+   
+   
+    height:200px;
+    
+}
+
+.contact2{
+    background-image:url(http://localhost:59072/Images/c1.jpg);
+    height:780px;
+}
+
+.cc1{
+    background-image:url(http://localhost:59072/Images/orange.jpg);
+    background-color:white;
+       color:white;
+    height: 540px;
+    width: 35%;
+    margin-left: 60%;
+    position:absolute;
+margin-top:3%;
+    border-radius: 7px;
+}
+
+
+
+.prodc1{
+    height:1000px;
+    
+   
+}
+
+.counter{
+    height:600px;
+}
+
+
+
+.counter1{
+    height:400px;
+    width:400px;
+    margin-left:10%;
+    background-color:white;
+    margin-top:10%;
+     position:absolute;
+     float:left;
+}
+
+
+.counter2{
+    height:400px;
+    width:600px;
+    margin-left:50%;
+ 
+   text-align:justify;
+    margin-top:10%;
+     position:absolute;
+     float:left;
+}
+
+.sug{
+height:400px; 
+background-color:white;
+    
+}
+
+
+.gallery{
+    height:1000px;
+}
+
+.dub{
+height:600px;
+}
+
+
+.dub1{
+    height:400px;
+    width:400px;
+    margin-left:10%;
+    background-color:white;
+    margin-top:10%;
+     position:absolute;
+     float:left;
+   
+}
+
+
+.dub2{
+    height:400px;
+    width:600px;
+    margin-left:50%;
+ 
+   text-align:justify;
+    margin-top:10%;
+     position:absolute;
+     float:left;
+}
+
+
+.sug2{
+height:360px;
+background-color:white;
+    
+}
+
+
+.out{
+height:600px;
+}
+
+.out1{
+    height:400px;
+    width:400px;
+    margin-left:10%;
+    background-color:white;
+    margin-top:10%;
+     position:absolute;
+     float:left;
+   
+}
+
+
+.out2{
+    height:400px;
+    width:600px;
+    margin-left:50%;
+
+   text-align:justify;
+    margin-top:10%;
+     position:absolute;
+     float:left;
+}
+
+
+.sug1{
+height:360px;
+background-color:white;
+    
+}
+
+.video{
+    background-color:white;
+    height:350px;
+}
+.video1{
+    background-color:white;
+    height:1000px;
+}
+
+
+.super{
+height:600px;
+}
+
+.super1{
+    height:400px;
+    width:400px;
+    margin-left:10%;
+    background-color:white;
+    margin-top:10%;
+     position:absolute;
+     float:left;
+   
+}
+
+
+.super2{
+    height:400px;
+    width:600px;
+    margin-left:50%;
+    background-color:white;
+   text-align:justify;
+    margin-top:10%;
+     position:absolute;
+     float:left;
+}
+
+
+.sug4{
+height:360px;
+background-color:white;
+    
+}
+
+
+.moto{
+height:600px;
+}
+
+.moto1{
+    height:400px;
+    width:400px;
+    margin-left:10%;
+    background-color:white;
+    margin-top:10%;
+     position:absolute;
+     float:left;
+   
+}
+
+
+.moto2{
+    height:400px;
+    width:600px;
+    margin-left:50%;
+    background-color:white;
+   text-align:justify;
+    margin-top:10%;
+     position:absolute;
+     float:left;
+}
+
+
+.sug5{
+height:360px;
+background-color:white;
+    
+}
+
+
+
+
+.hel{
+height:600px;
+}
+
+.hel1{
+    height:400px;
+    width:400px;
+    margin-left:10%;
+    background-color:white;
+    margin-top:10%;
+     position:absolute;
+     float:left;
+   
+}
+
+
+.hel2{
+    height:400px;
+    width:600px;
+    margin-left:50%;
+    background-color:white;
+   text-align:justify;
+    margin-top:10%;
+     position:absolute;
+     float:left;
+}
+
+
+.sug6{
+height:360px;
+background-color:white;
+    
+}
+
+.gallery{
+
+    height:350px;
+
+}
+
+.gallery1{
+
+    height:1050px;
+
+}
+
+.prod1{
+
+    height:500px;
+    width: 1595px;
+}
+
+.sales{
+    height:auto;
+    background-color:white;
+
+}
+
+
+.sel{
+    background-color:white;
+     height:auto;
+     margin-left:15%;
+     width:80%;    
+     text-align:center;
+}
+
+.log{
+    height:870px;
+background-image:url(http://localhost:59072/Images/lo.jpg);
+}
+
+
+.log1{
+    
+    background-color:white;
+    color:white;
+    height: 350px;
+    width: 24%;
+    margin-left: 37%;
+    position:absolute;
+    margin-top:15%;
+    border-radius: 7px;
+    opacity:60%;
+    
+}
+.sales1{
+    margin-left:30%;
+}
+
+.check{
+    height:800px;
+}
+.check1{
+
+    background-image:url(http://localhost:59072/Images/mix.png);
+    
+    margin-left:30%;
+    margin-top:10%;
+    height:550px;
+    width:35%;
+    position:absolute;
+}
+
+.rec1{
+    background-color:rgba(0,0,0,0.2);
+
+    height:800px;
+    
+}
+
+.rec2{
+background-color:white;
+    color:white;
+    height: 600px;
+    width: 30%;
+    margin-left: 35%;
+    position:absolute;
+margin-top:12%;
+    border-radius: 7px;
+
+}
